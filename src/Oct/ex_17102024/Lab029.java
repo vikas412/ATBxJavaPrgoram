@@ -2,7 +2,7 @@ package Oct.ex_17102024;
 
 import java.util.Scanner;
 
-public class Lab030 {
+public class Lab029 {
     public static void main(String[]args){
         Scanner side_value= new Scanner(System.in);
         System.out.println("Enter side 1 value of a triangle");
