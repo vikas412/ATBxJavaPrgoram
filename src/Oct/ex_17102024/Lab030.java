@@ -2,7 +2,7 @@ package Oct.ex_17102024;
 
 import java.util.Scanner;
 
-public class Lab029 {
+public class Lab030 {
     public static void main(String[]args){
         Scanner side_value= new Scanner(System.in);
         System.out.println("Enter side 1 value of a triangle");
@@ -12,16 +12,12 @@ public class Lab029 {
         System.out.println("Enter side 3 value of a triangle");
         int c= side_value.nextInt();
         //determine if the triangle is equilateral (all sides are equal),
-        // , or
-        // Use an if-else statement to classify the triangle.
-        //side1, side2, side2 → eq, iso, scalene
-        //
         // if the triangle is equilateral (all sides are equal)
         if (a==b && b==c){
             System.out.println("The Triangle is equilateral (all sides are equal)");
         }
         //isosceles (exactly two sides are equal)
-        else if ((a!=b && b==c)||(a==b && b!=c)){
+        else if ((a==b && b!=c)||(a==c && b!=c)|| (a!=b && b==c)){
             System.out.println("The Triangle is isosceles (exactly two sides are equal)");
         }
         // or scalene (no sides are equal).
