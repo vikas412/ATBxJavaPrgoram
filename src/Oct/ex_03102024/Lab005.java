@@ -2,6 +2,7 @@ package Oct.ex_03102024_MainMethod;
 
 public class Lab005 {
     public static void main(String[] args){
+        // This is the Table of 10 with println method without "+" operator
         System.out.println("10 x 1 = 10");
         System.out.println("10 x 2 = 20");
         System.out.println("10 x 3 = 30");

@@ -1,4 +1,4 @@
-package Oct.ex_03102024;
+package Oct.ex_04102024;
 
 public class Lab010 {
 }
