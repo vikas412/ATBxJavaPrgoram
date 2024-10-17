@@ -1,4 +1,4 @@
-package Oct.ex_17102024;
+package Oct.ex_18102024;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Lab029 {
             System.out.println("The Triangle is equilateral (all sides are equal)");
         }
         //isosceles (exactly two sides are equal)
-        else if (a != b && b == c || a != c && a == b || a == c){
+        else if ((a!=b && b==c||a==c)){
             System.out.println("The Triangle is isosceles (exactly two sides are equal)");
         }
         // or scalene (no sides are equal).
