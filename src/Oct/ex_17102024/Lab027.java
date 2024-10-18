@@ -27,6 +27,6 @@ public class Lab027 {
         else{
             System.out.println("Sorry you are Failed, Your grade is F"); //D: 0-59
         }
-
+        sc.close();
     }
 }

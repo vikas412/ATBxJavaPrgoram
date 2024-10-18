@@ -6,11 +6,11 @@ public class Lab029 {
     public static void main(String[]args){
         Scanner side_value= new Scanner(System.in);
         System.out.println("Enter side 1 value of a triangle");
-        int a= side_value.nextInt();
+        double a= side_value.nextDouble();
         System.out.println("Enter side 2 value of a triangle");
-        int b= side_value.nextInt();
+        double b= side_value.nextDouble();
         System.out.println("Enter side 3 value of a triangle");
-        int c= side_value.nextInt();
+        double c= side_value.nextDouble();
         //determine if the triangle is equilateral (all sides are equal),
         // if the triangle is equilateral (all sides are equal)
         if (a==b && b==c){
@@ -24,5 +24,6 @@ public class Lab029 {
         else {
             System.out.println("The Triangle is scalene (no sides are equal)");
         }
+        side_value.close();
     }
 }

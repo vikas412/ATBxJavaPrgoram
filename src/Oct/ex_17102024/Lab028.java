@@ -37,5 +37,6 @@ public class Lab028 {
         else{
             System.out.println("Please enter a the proper value");
         }
+        sc.close();
     }
 }
